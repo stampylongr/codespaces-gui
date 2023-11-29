@@ -3,6 +3,7 @@
     "vscode": {
       "extensions": [
         "EditorConfig.EditorConfig",
+        "redhat.fabric8-analytics",
         "redhat.java",
         "vscjava.vscode-java-debug",
         "vscjava.vscode-java-dependency",
@@ -35,6 +36,5 @@
       "label": "desktop",
       "onAutoForward": "notify"
     }
-  },
-  "postCreateCommand": "java -version"
+  }
 }
