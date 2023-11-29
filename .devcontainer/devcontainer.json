@@ -1,0 +1,35 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-maven",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "password": "apcs"
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "installGradle": "false",
+      "installMaven": "true",
+      "version": "none"
+    }
+  },
+  "forwardPorts": [6080],
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+  "name": "Java",
+  "portsAttributes": {
+    "6080": {
+      "label": "desktop",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "java -version"
+}
