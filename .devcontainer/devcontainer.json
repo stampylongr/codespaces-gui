@@ -9,7 +9,12 @@
         "vscjava.vscode-java-test",
         "vscjava.vscode-maven",
         "vscode-icons-team.vscode-icons"
-      ]
+      ],
+      "settings": {
+        "redhat.telemetry.enabled": false,
+        "workbench.colorTheme": "Default Dark Modern",
+        "workbench.iconTheme": "vscode-icons"
+      }
     }
   },
   "features": {
