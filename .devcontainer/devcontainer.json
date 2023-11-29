@@ -12,6 +12,8 @@
         "vscode-icons-team.vscode-icons"
       ],
       "settings": {
+        "java.semanticHighlighting.enabled": true,
+        "java.server.launchMode": "Standard",
         "redhat.telemetry.enabled": false,
         "vsicons.dontShowNewVersionMessage": true,
         "workbench.colorTheme": "Default Dark Modern",
