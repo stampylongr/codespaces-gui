@@ -1,4 +1,6 @@
 module kagemori.michiru {
+    requires java.desktop;
+    requires java.management;
     requires javafx.controls;
     requires javafx.fxml;
 
